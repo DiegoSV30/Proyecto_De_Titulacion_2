@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Motor"/>
+
+    <EditText
+        android:id="@+id/etNumeroSerie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Serie"/>
+
+    <EditText
+        android:id="@+id/etPotencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Potencia (kW)"/>
+
+    <EditText
+        android:id="@+id/etVoltaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Voltaje (V)"/>
+
+    <EditText
+        android:id="@+id/etFrecuencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frecuencia (Hz)"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"/>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"/>
+
+</LinearLayout>
+
+

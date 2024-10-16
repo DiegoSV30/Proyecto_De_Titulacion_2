@@ -8,16 +8,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registro de Motores Eléctricos"
+        android:text="Lista de Motores Eléctricos"
         android:textSize="24sp"
         android:layout_gravity="center"
         android:paddingBottom="16dp"/>
-
-    <Button
-        android:id="@+id/btnAgregarMotor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Agregar Motor"/>
 
     <ListView
         android:id="@+id/listViewMotores"
@@ -25,6 +19,4 @@
         android:layout_height="wrap_content"
         android:divider="@android:color/darker_gray"
         android:dividerHeight="1dp"/>
-
 </LinearLayout>
-
