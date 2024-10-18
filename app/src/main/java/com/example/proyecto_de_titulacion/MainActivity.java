@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Aquí puedes implementar la navegación a la pantalla de detalle
+                
             }
         });
     }
